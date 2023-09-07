@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(circle at 50% -20.71%, #d6d4f1 0, #dad3ef 6.25%, #dfd2ed 12.5%, #e3d0ea 18.75%, #e7cfe8 25%, #eacfe4 31.25%, #edcee1 37.5%, #f0cdde 43.75%, #f2cdda 50%, #f4cdd6 56.25%, #f5cdd3 62.5%, #f5cdcf 68.75%, #f5cdcb 75%, #f5cec8 81.25%, #f4cec5 87.5%, #f3cfc2 93.75%, #f1d0c0 100%);
+  background-attachment: fixed;
+  background-size: cover;
+    background-position: center;
+    
+}
+
+.box {
+  width: 330px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 55vh;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+}
+h4 {
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  color: white;
+}
+
+.infoo {
+  width: 90px;
+  border: 2px solid white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+
+
+
+
+/*NAVIGASI*/
+header {
+  position: fixed;
+  top: 0px;
+  left: 53px;
+  width: 35vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  z-index: 9999;
+  border-radius: 10px;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 23px;
+  
+  
+}
+
+main {
+  padding-top: 40px; /* Mengatur padding atas agar konten tidak tertutup oleh navigasi */
+}
+
+/*LOGO SET*/
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-image {
+max-width: 50%;
+max-height: 50%;
+}
+
+
+.google-font {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text {
+  color: red;
+  display: inline-block;
+  padding-left: 100%; /* Membuat teks muncul di luar elemen */
+  animation: marquee 0.2s linear infinite; /* Mengatur animasi dengan durasi 5 detik */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); } /* Menggeser teks ke kiri sejauh elemen parent */
+}
+.text1 {
+  color: blue;
+  display: inline-block;
+  padding-left: 100%; /* Membuat teks muncul di luar elemen */
+  animation: marquee 0.2s linear infinite; /* Mengatur animasi dengan durasi 5 detik */
+}
